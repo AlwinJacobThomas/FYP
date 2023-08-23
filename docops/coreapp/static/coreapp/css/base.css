@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "side-nav header"
+        "side-nav container";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 300px 1fr;
+}
+
+.side-nav {
+    grid-area: side-nav;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.container {
+    grid-area: container;
+    overflow-y: auto;
+}
+
+.logo {
+    height: 50px;
+}
+
+.top-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hos-detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.hos-thumbnail {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.hos-detail-wrapper h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hos-detail-wrapper span {
+    font-size: 12px;
+    color: #6E6D7A;
+}
+
+.menu {
+    width: 80%;
+}
+
+.menu-item {
+    font-weight: 600;
+    font-size: 16px;
+    color: #6E6D7A;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.menu-item.active {
+    color: #000000;
+}
+
+.menu-item svg {
+    margin-right: 10px;
+}
+
+.menu-item svg path {
+    fill: #6E6D7A;
+    
+}
+
+.menu-item.active svg path {
+    fill: #000000;
+}
+
+.side-nav .logout-wrapper {
+    width: 80%;
+}
+
+.side-nav .logout-wrapper a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #000000;
+}
+
+.side-nav .logout-wrapper a svg {
+    margin-right: 10px;
+}
+
+.header {
+    padding: 0 50px 0 30px;
+    display: flex;
+   
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.header .header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .btn-search {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    background-color: #eee;
+    padding: 0 30px;
+    margin-right: 10px;
+}
+
+.header .btn-search svg {
+    margin-right: 16px;
+}
+
+.header .btn-header {
+    width: fit-content;
+    height: 50px;
+    background: none;
+    border: none;
+    padding-top: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.content {
+    padding: 30px;
+    background-color: #eee;
+    min-height: calc(100vh - 100px);
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #ff0000;
+    color: #fff;
+}
+.height20 {
+    height: 20px;
+}

@@ -1,0 +1,20 @@
+{% extends 'coreapp/layout.html' %}
+{% load static %}
+{% block title %}{% endblock %}
+{% block head %}<link rel="stylesheet" href="{% static 'coreapp/css/style.css' %}">{% endblock %}
+
+{% block content %}
+    <div class="landing-container">
+        <div class="inner-container">
+            <div class="details">
+                <div class="landing-title">Find the best doctors <br> and make and appointment</div>
+                <div class="landing-desc">Get access to the best doctors in town <br> Book an appointment with our
+                    trusted and experienced doctors today</div>
+            </div>
+
+            <img src="{% static 'img/doc.jpg' %}" alt="doc">
+        </div>
+
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<g id="BACKGROUND">
+</g>
+<g id="OBJECTS">
+	<g>
+		<g>
+			
+				<text transform="matrix(1 0 0 1 273.9941 342.1777)" style="fill:#333333; font-family:'Montserrat-Light'; font-size:4.0429px;">1000 </text>
+		</g>
+		<g>
+			
+				<text transform="matrix(1 0 0 1 276.7021 364.6816)" style="fill:#333333; font-family:'Montserrat-Light'; font-size:4.0429px;">750 </text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 276.1758 387.458)" style="fill:#333333; font-family:'Montserrat-Light'; font-size:4.0429px;">500 </text>
+		</g>
+		<g>
+			
+				<text transform="matrix(1 0 0 1 281.6309 410.6357)" style="fill:#333333; font-family:'Montserrat-Light'; font-size:4.0429px;">0 </text>
+		</g>
+		<g>
+			<rect x="276.702" y="428.16" style="fill:#FF6A4D;" width="3.651" height="3.651"/>
+			<text transform="matrix(1 0 0 1 282.5781 431.5078)" style="font-family:'Montserrat-Light'; font-size:4.3225px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="308.957" y="428.16" style="fill:#7C5CAF;" width="3.651" height="3.651"/>
+			<text transform="matrix(1 0 0 1 314.832 431.5078)" style="font-family:'Montserrat-Light'; font-size:4.3225px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="341.211" y="428.16" style="fill:#009BDE;" width="3.651" height="3.651"/>
+			<text transform="matrix(1 0 0 1 347.0869 431.5078)" style="font-family:'Montserrat-Light'; font-size:4.3225px;">LOREM </text>
+		</g>
+		<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="289.636" y1="342.176" x2="454.954" y2="342.176"/>
+		<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="289.636" y1="364.816" x2="454.954" y2="364.816"/>
+		<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="289.636" y1="387.457" x2="454.954" y2="387.457"/>
+		<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="454.954" y1="410.097" x2="289.636" y2="410.097"/>
+		<polyline style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" points="291.657,401.466 332.701,360.422 
+			352.661,380.382 397.634,335.41 428.401,366.177 438.117,356.461 455.286,373.629 		"/>
+		<polyline style="fill:none;stroke:#009BDE;stroke-width:2.5;stroke-miterlimit:10;" points="289.636,397.262 313.287,373.611 
+			346.438,406.762 379.59,373.611 394.532,388.553 456.355,326.729 		"/>
+		<polyline style="fill:none;stroke:#FF6A4D;stroke-width:2.5;stroke-miterlimit:10;" points="289.636,374.756 331.264,333.128 
+			382.743,384.607 407.474,359.877 444.264,396.667 457,383.931 		"/>
+		<g>
+			<rect x="375.777" y="420.491" style="fill:none;" width="79.779" height="22.64"/>
+			<text transform="matrix(1 0 0 1 375.7773 422.8867)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2289px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.306" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2289px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.61" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2289px;">euismod tincidunt ut laoreet </tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 272.3613 321.1143)" style="fill:#333333; font-family:'OstrichSans-Bold'; font-size:8px;">TITLE HERE</text>
+		</g>
+	</g>
+	<g>
+		
+			<ellipse transform="matrix(0.9262 -0.377 0.377 0.9262 -136.2562 67.3806)" style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" cx="104.015" cy="381.797" rx="59.532" ry="59.532"/>
+		<path style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" d="M104.015,436.457c-30.14,0-54.661-24.521-54.661-54.661
+			c0-30.14,24.521-54.661,54.661-54.661s54.662,24.521,54.662,54.661C158.677,411.937,134.155,436.457,104.015,436.457z"/>
+		<path style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" d="M104.015,431.587c-27.455,0-49.79-22.336-49.79-49.79
+			s22.336-49.79,49.79-49.79s49.791,22.336,49.791,49.79S131.469,431.587,104.015,431.587z"/>
+		<path style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" d="M104.015,426.716c-24.769,0-44.919-20.151-44.919-44.919
+			c0-24.769,20.151-44.919,44.919-44.919c24.769,0,44.92,20.151,44.92,44.919C148.935,406.565,128.784,426.716,104.015,426.716z"/>
+		<circle style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" cx="104.015" cy="381.796" r="40.049"/>
+		<path style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-miterlimit:10;" d="M104.015,441.328
+			c-32.826,0-59.532-26.706-59.532-59.532s26.706-59.532,59.532-59.532"/>
+		<path style="fill:none;stroke:#F458A7;stroke-width:2.5;stroke-miterlimit:10;" d="M104.015,436.457
+			c-30.14,0-54.661-24.521-54.661-54.661"/>
+		<path style="fill:none;stroke:#FF6A4D;stroke-width:2.5;stroke-miterlimit:10;" d="M153.806,381.797
+			c0,27.454-22.336,49.79-49.791,49.79s-49.79-22.336-49.79-49.79s22.336-49.79,49.79-49.79"/>
+		<path style="fill:none;stroke:#009BDE;stroke-width:2.5;stroke-miterlimit:10;" d="M148.935,381.797
+			c0,24.769-20.151,44.919-44.92,44.919c-24.769,0-44.919-20.151-44.919-44.919c0-24.769,20.151-44.919,44.919-44.919"/>
+		<path style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" d="M104.015,421.845
+			c-22.118,0-40.049-17.931-40.049-40.049c0-22.118,17.931-40.049,40.049-40.049"/>
+		
+			<text transform="matrix(1 0 0 1 92.2485 376.707)" style="fill:#333333; font-family:'OstrichSans-Black'; font-size:19.9692px; letter-spacing:1;">65%</text>
+		<g>
+			<rect x="71.01" y="383.122" style="fill:#009BDE;" width="2.772" height="2.772"/>
+			<text transform="matrix(1 0 0 1 75.4707 385.6621)" style="font-family:'Montserrat-Light'; font-size:3.2812px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="95.495" y="382.311" style="fill:#FF6A4D;" width="2.772" height="2.772"/>
+			<text transform="matrix(1 0 0 1 99.9556 384.8506)" style="font-family:'Montserrat-Light'; font-size:3.2812px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="119.98" y="382.311" style="fill:#FF9F3A;" width="2.772" height="2.772"/>
+			<text transform="matrix(1 0 0 1 124.4399 384.8506)" style="font-family:'Montserrat-Light'; font-size:3.2812px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="82.408" y="390.855" style="fill:#7C5CAF;" width="2.772" height="2.772"/>
+			<text transform="matrix(1 0 0 1 86.8682 393.3965)" style="font-family:'Montserrat-Light'; font-size:3.2812px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="106.892" y="390.855" style="fill:#F458A7;" width="2.772" height="2.772"/>
+			<text transform="matrix(1 0 0 1 111.353 393.3965)" style="font-family:'Montserrat-Light'; font-size:3.2812px;">LOREM </text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 41.6099 310.582)" style="fill:#333333; font-family:'OstrichSans-Bold'; font-size:8px;">TITLE HERE</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 42.7861 182.3296)" style="fill:#333333; font-family:'OstrichSans-Bold'; font-size:8px;">TITLE HERE</text>
+		</g>
+		<g>
+			<g>
+				<polyline style="fill:none;stroke:#DBDBDB;stroke-width:0.5;stroke-miterlimit:10;" points="44.24,193.623 44.24,266.151 
+					228.609,266.151 				"/>
+				
+					<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="44.99" y1="252.472" x2="228.609" y2="252.472"/>
+				
+					<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="44.99" y1="237.183" x2="228.609" y2="237.183"/>
+				
+					<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="44.99" y1="221.894" x2="228.609" y2="221.894"/>
+				
+					<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="44.99" y1="206.605" x2="228.609" y2="206.605"/>
+			</g>
+			<g style="opacity:0.92;">
+				<g>
+					<path style="fill:#7C5CAF;" d="M45.843,265.871c-0.835-4.725,0.613-9.763,4.015-13.209c4.12-4.172,8.816-2.737,13.979-3.411
+						c5.965-0.779,9.5-5.584,11.358-10.979c3.017-8.763,1.215-20.955,10.899-26.011c11.357-5.929,16.823,12.564,19.007,20.007
+						c1.871,6.374,4.067,13.588,9.539,17.853c4.36,3.399,10.625,4.247,15.048,0.548c2.76-2.308,4.328-5.748,6.647-8.431
+						c4.66-5.392,11.569-4.861,15.71,0.928c3.696,5.169,6.049,11.955,11.134,16.002c5.693,4.529,11.408,1.589,17.039-1.353
+						c9.729-5.082,21.168-2.326,25.215,8.635c0.497,1.347,2.673,0.764,2.17-0.598c-2.273-6.158-7.062-10.934-13.535-12.549
+						c-8.157-2.035-13.167,2.686-20.382,5.244c-11.256,3.991-15.073-10.825-20.486-17.593c-3.92-4.901-11.049-6.69-16.242-2.589
+						c-2.882,2.276-4.544,5.805-6.888,8.561c-5.663,6.657-13.622,3.646-17.847-2.902c-5.124-7.943-5.351-17.981-10.109-26.111
+						c-3.178-5.429-8.901-10.733-15.621-8.303c-8.128,2.939-10.35,11.806-11.593,19.335c-0.963,5.83-2.078,14.098-8.041,17.132
+						c-4.608,2.344-10.106-0.004-14.792,2.205c-6.655,3.138-9.612,11.3-8.395,18.188C43.925,267.892,46.094,267.289,45.843,265.871
+						L45.843,265.871z"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path style="fill:#F458A7;" d="M228.843,266.45c1.753-12.882-3.308-26.968-7.714-38.85
+						c-2.987-8.055-6.995-23.279-17.363-24.433c-6.78-0.755-11.858,4.206-14.848,9.741c-4.302,7.963-7.008,16.784-10.684,25.035
+						c-3.567,8.005-9.262,18.974-19.605,13.215c-6.521-3.63-11.193-10.256-18.761-11.986c-16.047-3.668-26.584,13.461-29.712,26.639
+						c-0.334,1.408,1.835,2.009,2.17,0.598c3.034-12.78,14.438-31.125,30.202-23.978c9.366,4.246,19.222,19.637,30.006,9.083
+						c4.414-4.32,6.889-10.514,9.212-16.107c3.116-7.503,5.638-15.596,9.805-22.598c4.769-8.013,14.538-10.373,19.898-1.544
+						c2.569,4.232,4.436,9.006,6.238,13.595c4.822,12.28,10.816,27.556,8.988,40.992C226.48,267.268,228.648,267.881,228.843,266.45
+						L228.843,266.45z"/>
+				</g>
+			</g>
+			<g style="opacity:0.92;">
+				<g>
+					<path style="fill:#FF9F3A;" d="M217.811,266.45c1.215-6.504-1.307-13.595-6.873-17.426c-3.156-2.172-6.518-2.341-10.246-2.348
+						c-7.601-0.013-12.057-3.255-14.401-10.499c-2.768-8.553-1.682-18.08-8.868-24.652c-5.685-5.199-12.714-4.886-18.119,0.528
+						c-6.814,6.825-7.886,16.773-11.297,25.351c-1.999,5.027-4.972,10.132-10.246,12.191c-7.306,2.852-11.16-2.05-15.186-7.337
+						c-4.4-5.777-10.88-9.33-17.856-5.055c-7.127,4.367-8.817,14.277-15.074,19.591c-5.969,5.069-11.972,0.684-17.757-2.04
+						c-3.54-1.667-7.126-2.563-11.053-2.113c-8.082,0.925-14.647,6.537-17.495,14.016c-0.516,1.354,1.659,1.94,2.17,0.598
+						c3.326-8.737,12.884-14.491,22.146-11.803c6.648,1.929,12.638,8.321,20.031,5.21c5.565-2.342,8.478-8.5,11.533-13.292
+						c2.865-4.492,5.748-9.492,11.74-9.773c6.208-0.292,9.021,5.199,12.361,9.408c3.916,4.933,9.044,7.143,15.193,4.766
+						c5.985-2.315,9.424-8.065,11.663-13.767c3.456-8.797,4.48-20.441,12.947-26.186c6.022-4.085,12.307-0.494,15.798,5.033
+						c2.688,4.257,2.994,9.465,3.882,14.298c1.211,6.588,3.746,14.65,10.804,17.078c5.339,1.837,11.11-0.684,16.053,2.707
+						c4.731,3.245,7.023,9.347,5.981,14.92C215.377,267.267,217.545,267.874,217.811,266.45L217.811,266.45z"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 44.2397 278.623)" style="fill:#7C5CAF; font-family:'OstrichSans-Medium'; font-size:7px;">LOREM IPSUM</text>
+			<text transform="matrix(1 0 0 1 110.9097 278.623)" style="fill:#F458A7; font-family:'OstrichSans-Medium'; font-size:7px;">LOREM IPSUM</text>
+			<text transform="matrix(1 0 0 1 175.4766 278.623)" style="fill:#FF9F3A; font-family:'OstrichSans-Medium'; font-size:7px;">LOREM IPSUM</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 274.5088 194.1201)" style="fill:#333333; font-family:'OstrichSans-Bold'; font-size:8px;">TITLE HERE</text>
+		</g>
+		<g>
+			<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="275.606" y1="212.933" x2="410.457" y2="212.933"/>
+			<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="275.606" y1="230.646" x2="410.457" y2="230.646"/>
+			<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="275.606" y1="248.36" x2="410.457" y2="248.36"/>
+			
+				<line style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:10;" x1="275.606" y1="212.933" x2="367.213" y2="212.933"/>
+			
+				<line style="fill:#295188;stroke:#F458A7;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:10;" x1="275.606" y1="230.646" x2="318.629" y2="230.646"/>
+			
+				<line style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:10;" x1="275.606" y1="248.36" x2="298.923" y2="248.36"/>
+			<path style="fill:#333333;" d="M370.699,212.933c0,1.925-1.56,3.486-3.486,3.486c-1.925,0-3.486-1.561-3.486-3.486
+				s1.561-3.486,3.486-3.486C369.138,209.447,370.699,211.008,370.699,212.933z"/>
+			<path style="fill:#333333;" d="M322.114,230.646c0,1.925-1.56,3.486-3.486,3.486c-1.925,0-3.485-1.561-3.485-3.486
+				s1.56-3.486,3.485-3.486C320.554,227.161,322.114,228.721,322.114,230.646z"/>
+			<path style="fill:#333333;" d="M302.408,248.36c0,1.925-1.56,3.486-3.486,3.486c-1.925,0-3.485-1.561-3.485-3.486
+				s1.56-3.486,3.485-3.486C300.848,244.875,302.408,246.435,302.408,248.36z"/>
+			<g>
+				
+					<text transform="matrix(1 0 0 1 364.6807 206.373)" style="font-family:'Montserrat-Regular'; font-size:5.2034px; letter-spacing:1;">79</text>
+			</g>
+			<g>
+				
+					<text transform="matrix(1 0 0 1 316.2656 223.4404)" style="font-family:'Montserrat-Regular'; font-size:5.2034px; letter-spacing:1;">28</text>
+			</g>
+			<g>
+				
+					<text transform="matrix(1 0 0 1 297.1133 242.0186)" style="font-family:'Montserrat-Regular'; font-size:5.2034px; letter-spacing:1;">10</text>
+			</g>
+			
+				<text transform="matrix(1 0 0 1 415.375 213.7275)" style="fill:#FF9F3A; font-family:'OstrichSans-Bold'; font-size:6px; letter-spacing:1;">OPTION 1</text>
+			
+				<text transform="matrix(1 0 0 1 415.375 231.2246)" style="fill:#F458A7; font-family:'OstrichSans-Bold'; font-size:6px; letter-spacing:1;">OPTION 2</text>
+			
+				<text transform="matrix(1 0 0 1 415.375 249.3711)" style="fill:#7C5CAF; font-family:'OstrichSans-Bold'; font-size:6px; letter-spacing:1;">OPTION 3</text>
+		</g>
+		
+			<text transform="matrix(1 0 0 1 274.6211 266.7393)" style="fill:#808080; font-family:'Montserrat-SemiBold'; font-size:4.7771px;">LOREM IPSUM</text>
+		<rect x="274.621" y="272.216" style="fill:none;" width="78.557" height="22.293"/>
+		<text transform="matrix(1 0 0 1 274.6211 274.6582)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2915px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.389" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2915px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.777" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2915px;">euismod tincidunt ut laoreet </tspan></text>
+		
+			<text transform="matrix(1 0 0 1 375.5791 266.7393)" style="fill:#808080; font-family:'Montserrat-SemiBold'; font-size:4.7771px;">LOREM IPSUM</text>
+		<rect x="375.58" y="272.216" style="fill:none;" width="78.557" height="22.293"/>
+		<text transform="matrix(1 0 0 1 375.5801 274.6582)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2915px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.389" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2915px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.777" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.2915px;">euismod tincidunt ut laoreet </tspan></text>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 187.3096 311.2393)" style="fill:#333333; font-family:'OstrichSans-Bold'; font-size:8px;">TITLE HERE</text>
+		</g>
+		<g>
+			<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="188.919" y1="418.884" x2="188.919" y2="324.391"/>
+			<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="201.331" y1="418.884" x2="201.331" y2="324.391"/>
+			<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="213.743" y1="418.884" x2="213.743" y2="324.391"/>
+			
+				<line style="fill:none;stroke:#009BDE;stroke-width:2.5;stroke-miterlimit:10;" x1="188.919" y1="418.884" x2="188.919" y2="354.692"/>
+			
+				<line style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-miterlimit:10;" x1="201.331" y1="418.884" x2="201.331" y2="388.737"/>
+			
+				<line style="fill:none;stroke:#FF6A4D;stroke-width:2.5;stroke-miterlimit:10;" x1="213.743" y1="418.884" x2="213.743" y2="402.545"/>
+			<circle style="fill:#333333;" cx="188.919" cy="354.692" r="2.442"/>
+			<line style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" x1="224.12" y1="418.884" x2="224.12" y2="324.391"/>
+			
+				<line style="fill:none;stroke:#F458A7;stroke-width:2.5;stroke-miterlimit:10;" x1="224.12" y1="418.884" x2="224.12" y2="373.939"/>
+			<circle style="fill:#333333;" cx="224.12" cy="373.939" r="2.442"/>
+			<path style="fill:#333333;" d="M201.331,386.294c1.349,0,2.442,1.094,2.442,2.442c0,1.349-1.094,2.442-2.442,2.442
+				c-1.349,0-2.442-1.094-2.442-2.442C198.889,387.388,199.982,386.294,201.331,386.294z"/>
+			<circle style="fill:#333333;" cx="213.743" cy="402.545" r="2.442"/>
+		</g>
+		<rect x="187.726" y="427.959" style="fill:none;" width="72.74" height="20.643"/>
+		<text transform="matrix(1 0 0 1 187.7266 430.2207)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.063" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.127" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">euismod tincidunt ut laoreet </tspan></text>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 42.7861 47.1162)" style="fill:#333333; font-family:'OstrichSans-Bold'; font-size:8px;">TITLE HERE</text>
+		</g>
+		<g>
+			<polyline style="fill:none;stroke:#DBDBDB;stroke-width:0.5;stroke-miterlimit:10;" points="42.786,57.501 42.786,153.775 
+				161.887,153.775 			"/>
+			
+				<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="43.27" y1="138.941" x2="161.887" y2="138.941"/>
+			
+				<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="43.27" y1="122.362" x2="161.887" y2="122.362"/>
+			
+				<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="43.27" y1="105.783" x2="161.887" y2="105.783"/>
+			
+				<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="43.27" y1="89.204" x2="161.887" y2="89.204"/>
+			
+				<line style="fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;" x1="43.27" y1="72.044" x2="161.887" y2="72.044"/>
+		</g>
+		<g>
+			
+				<text transform="matrix(1 0 0 1 171.4365 104.98)" style="fill:#EDBF84; font-family:'Montserrat-SemiBold'; font-size:4.4234px;">LOREM IPSUM</text>
+		</g>
+		<g>
+			
+				<text transform="matrix(1 0 0 1 171.4365 135.98)" style="fill:#7C5CAF; font-family:'Montserrat-SemiBold'; font-size:4.4234px;">LOREM IPSUM</text>
+		</g>
+		<rect x="171.437" y="110.051" style="fill:none;" width="72.74" height="20.642"/>
+		<text transform="matrix(1 0 0 1 171.4375 112.312)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.064" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.128" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">euismod tincidunt ut laoreet </tspan></text>
+		<g>
+			
+				<text transform="matrix(1 0 0 1 171.4365 73.4927)" style="fill:#F458A7; font-family:'Montserrat-SemiBold'; font-size:4.4234px;">LOREM IPSUM</text>
+		</g>
+		<rect x="171.437" y="78.564" style="fill:none;" width="72.74" height="20.643"/>
+		<text transform="matrix(1 0 0 1 171.4375 80.8247)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.064" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.128" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">euismod tincidunt ut laoreet </tspan></text>
+		<rect x="171.437" y="141.613" style="fill:none;" width="72.74" height="20.642"/>
+		<text transform="matrix(1 0 0 1 171.4375 143.874)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.064" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.128" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.0478px;">euismod tincidunt ut laoreet </tspan></text>
+		
+			<line style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-miterlimit:10;" x1="53.221" y1="75.231" x2="53.221" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" x1="57.29" y1="105.638" x2="57.29" y2="153.775"/>
+		
+			<line style="fill:#295188;stroke:#F458A7;stroke-width:2.5;stroke-miterlimit:10;" x1="61.497" y1="129.707" x2="61.497" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-miterlimit:10;" x1="74.035" y1="122.362" x2="74.035" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" x1="78.105" y1="80.767" x2="78.105" y2="153.775"/>
+		
+			<line style="fill:#295188;stroke:#F458A7;stroke-width:2.5;stroke-miterlimit:10;" x1="82.311" y1="105.638" x2="82.311" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-miterlimit:10;" x1="94.85" y1="114.503" x2="94.85" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" x1="98.919" y1="135.02" x2="98.919" y2="153.775"/>
+		
+			<line style="fill:#295188;stroke:#F458A7;stroke-width:2.5;stroke-miterlimit:10;" x1="103.126" y1="94.585" x2="103.126" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-miterlimit:10;" x1="115.665" y1="94.585" x2="115.665" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" x1="119.734" y1="86.178" x2="119.734" y2="153.775"/>
+		
+			<line style="fill:#295188;stroke:#F458A7;stroke-width:2.5;stroke-miterlimit:10;" x1="123.941" y1="143.139" x2="123.941" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#FF9F3A;stroke-width:2.5;stroke-miterlimit:10;" x1="136.48" y1="128.007" x2="136.48" y2="153.775"/>
+		
+			<line style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" x1="140.549" y1="98.482" x2="140.549" y2="153.775"/>
+		
+			<line style="fill:#295188;stroke:#F458A7;stroke-width:2.5;stroke-miterlimit:10;" x1="144.756" y1="117.271" x2="144.756" y2="153.775"/>
+	</g>
+	<g>
+		<g>
+			<rect x="279.215" y="75.54" style="fill:#FF6A4D;" width="4.398" height="4.398"/>
+			<text transform="matrix(1 0 0 1 286.293 79.5723)" style="font-family:'Montserrat-Light'; font-size:5.2066px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="318.067" y="75.54" style="fill:#7C5CAF;" width="4.398" height="4.398"/>
+			<text transform="matrix(1 0 0 1 325.1445 79.5723)" style="font-family:'Montserrat-Light'; font-size:5.2066px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="356.919" y="75.54" style="fill:#009BDE;" width="4.398" height="4.398"/>
+			<text transform="matrix(1 0 0 1 363.9971 79.5723)" style="font-family:'Montserrat-Light'; font-size:5.2066px;">LOREM </text>
+		</g>
+		<g>
+			<rect x="280.121" y="93.298" style="fill:none;" width="77.66" height="23.039"/>
+			<text transform="matrix(1 0 0 1 280.1211 95.6294)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.1431px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.191" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.1431px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.382" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.1431px;">euismod tincidunt ut laoreet </tspan></text>
+		</g>
+		<g>
+			<rect x="369.604" y="93.298" style="fill:none;" width="77.66" height="23.039"/>
+			<text transform="matrix(1 0 0 1 369.6045 95.6294)"><tspan x="0" y="0" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.1431px;">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="4.191" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.1431px;">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="8.382" style="fill:#959595; font-family:'Montserrat-Light'; font-size:3.1431px;">euismod tincidunt ut laoreet </tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 279.6523 61.2954)" style="fill:#333333; font-family:'OstrichSans-Bold'; font-size:8px;">TITLE HERE</text>
+		</g>
+		<g>
+			
+				<text transform="matrix(1 0 0 1 385.8589 61.2954)" style="fill:#333333; font-family:'Montserrat-Regular'; font-size:5.2668px;">LOREM IPSUM DOLOR</text>
+		</g>
+		<g>
+			<circle style="fill:none;stroke:#000000;stroke-width:0.5503;stroke-miterlimit:10;" cx="429.177" cy="137.685" r="20.702"/>
+			<path style="fill:none;stroke:#7C5CAF;stroke-width:2.5;stroke-miterlimit:10;" d="M429.177,158.387
+				c-11.434,0-20.702-9.269-20.702-20.702c0-11.433,9.269-20.702,20.702-20.702"/>
+			<g>
+				
+					<text transform="matrix(1 0 0 1 420.3809 141.9336)" style="fill:#333333; font-family:'OstrichSans-Black'; font-size:13.6201px;">50%</text>
+			</g>
+		</g>
+		<g>
+			<circle style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" cx="363.713" cy="137.685" r="20.702"/>
+			<path style="fill:none;stroke:#FF6A4D;stroke-width:2.5;stroke-miterlimit:10;" d="M363.713,158.387
+				c-11.434,0-20.702-9.269-20.702-20.702c0-11.433,9.269-20.702,20.702-20.702c11.434,0,20.702,9.269,20.702,20.702"/>
+			<g>
+				
+					<text transform="matrix(1 0 0 1 354.916 141.9336)" style="fill:#333333; font-family:'OstrichSans-Black'; font-size:13.6201px;">80%</text>
+			</g>
+		</g>
+		<g>
+			<circle style="fill:none;stroke:#C8C8C8;stroke-miterlimit:10;" cx="298.249" cy="137.685" r="20.702"/>
+			<path style="fill:none;stroke:#009BDE;stroke-width:2.5;stroke-miterlimit:10;" d="M298.249,158.387
+				c-11.434,0-20.702-9.269-20.702-20.702"/>
+			<g>
+				
+					<text transform="matrix(1 0 0 1 289.4512 141.9336)" style="fill:#333333; font-family:'OstrichSans-Black'; font-size:13.6201px;">15%</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="DESIGNED_BY_FREEPIK">
+	<g>
+		<g id="XMLID_24_">
+			<g id="XMLID_210_">
+				<path id="XMLID_278_" style="fill:#1D262D;" d="M259.231,470.525c-0.395,0.405-0.734,0.85-1.013,1.327l-0.425-0.22
+					c-0.061-0.272-0.319-0.459-0.602-0.426c-0.302,0.036-0.519,0.31-0.483,0.612c0.036,0.302,0.31,0.519,0.612,0.483
+					c0.06-0.007,0.116-0.024,0.168-0.048l0.413,0.214c-0.229,0.506-0.395,1.04-0.493,1.593l0.682,0.12
+					c0.21-1.193,0.776-2.29,1.637-3.172L259.231,470.525z"/>
+				<path id="XMLID_277_" style="fill:#1D262D;" d="M264.244,468.422c-0.156,0-0.311,0.005-0.466,0.015l-0.067-0.572
+					c0.171-0.136,0.27-0.355,0.243-0.589c-0.042-0.359-0.368-0.616-0.727-0.574s-0.616,0.368-0.574,0.727
+					c0.027,0.232,0.173,0.421,0.37,0.515l0.067,0.57c-0.652,0.106-1.282,0.303-1.882,0.59l0.299,0.625
+					c0.853-0.408,1.774-0.615,2.736-0.615c0.454,0,0.907,0.048,1.348,0.144l0.147-0.677
+					C265.25,468.476,264.747,468.422,264.244,468.422z"/>
+				<path id="XMLID_265_" style="fill:#1D262D;" d="M270.276,470.749c0.302-0.037,0.517-0.312,0.48-0.614
+					c-0.037-0.302-0.312-0.517-0.614-0.48c-0.283,0.035-0.489,0.278-0.484,0.556l-0.38,0.332c-0.382-0.393-0.813-0.742-1.286-1.041
+					l-0.369,0.586c1.036,0.653,1.846,1.577,2.342,2.672l0.631-0.286c-0.229-0.506-0.518-0.979-0.861-1.411l0.367-0.321
+					C270.158,470.754,270.216,470.757,270.276,470.749z"/>
+				<path id="XMLID_264_" style="fill:#1D262D;" d="M263.744,477.748c-0.353,0.021-0.708,0.032-1.057,0.032
+					c-0.804,0-1.583-0.056-2.264-0.164c-0.357-0.057-0.773-0.142-1.16-0.267c0.956,1.7,2.804,2.855,4.923,2.855
+					c2.609,0,4.807-1.751,5.435-4.114c-0.623,0.41-1.375,0.754-2.246,1.025C266.297,477.452,265.04,477.67,263.744,477.748z"/>
+				<path id="XMLID_233_" style="fill:#1D262D;" d="M264.244,469.807c-3.063,0-5.554,2.436-5.554,5.43
+					c0,0.389,0.042,0.776,0.125,1.152c0.615,0.441,2.472,0.813,4.885,0.668c2.63-0.158,4.839-0.875,6.095-1.972
+					c-0.005-0.178-0.019-0.356-0.041-0.532C269.407,471.848,267.038,469.807,264.244,469.807z M262.271,475.759
+					c-0.932,0-1.69-0.758-1.69-1.69s0.758-1.69,1.69-1.69c0.932,0,1.69,0.758,1.69,1.69S263.203,475.759,262.271,475.759z
+					 M266.599,474.929c-0.685,0-1.243-0.557-1.243-1.243c0-0.685,0.557-1.243,1.243-1.243c0.685,0,1.243,0.558,1.243,1.243
+					C267.842,474.372,267.285,474.929,266.599,474.929z"/>
+			</g>
+			<path id="XMLID_209_" style="fill:#1D262D;" d="M278.864,471.513c-0.269-0.106-0.736-0.282-1.263-0.217
+				c-0.503,0.063-0.771,0.311-0.771,0.92v0.791h2.035v1.569h-2.035v4.983h-1.765v-4.983h-1.224v-1.569h1.224v-0.811
+				c0-1.535,0.818-2.542,2.346-2.542c0.587,0,1.057,0.111,1.453,0.281L278.864,471.513z"/>
+			<path id="XMLID_180_" style="fill:#1D262D;" d="M283.16,474.557c-0.161-0.027-0.327-0.042-0.481-0.042
+				c-0.818,0-1.379,0.5-1.379,1.474v3.57h-1.765v-6.552h1.711v0.717c0.412-0.615,1.041-0.893,1.846-0.893
+				c0.379,0,0.774,0.117,1,0.308L283.16,474.557z"/>
+			<path id="XMLID_141_" style="fill:#1D262D;" d="M290.165,476.273c0,0.203-0.014,0.446-0.034,0.595h-4.645
+				c0.189,0.947,0.852,1.359,1.684,1.359c0.568,0,1.183-0.23,1.657-0.629l1.035,1.136c-0.744,0.683-1.691,0.994-2.793,0.994
+				c-2.008,0-3.401-1.366-3.401-3.428c0-2.062,1.352-3.469,3.313-3.469C288.867,472.831,290.158,474.231,290.165,476.273z
+				 M285.493,475.664h2.901c-0.162-0.839-0.669-1.312-1.427-1.312C286.135,474.353,285.648,474.853,285.493,475.664z"/>
+			<path id="XMLID_69_" style="fill:#1D262D;" d="M297.157,476.273c0,0.203-0.014,0.446-0.034,0.595h-4.645
+				c0.189,0.947,0.852,1.359,1.684,1.359c0.568,0,1.183-0.23,1.657-0.629l1.035,1.136c-0.744,0.683-1.69,0.994-2.793,0.994
+				c-2.008,0-3.401-1.366-3.401-3.428c0-2.062,1.352-3.469,3.313-3.469C295.858,472.831,297.15,474.231,297.157,476.273z
+				 M292.484,475.664h2.901c-0.162-0.839-0.67-1.312-1.427-1.312C293.127,474.353,292.64,474.853,292.484,475.664z"/>
+			<path id="XMLID_325_" style="fill:#1D262D;" d="M304.781,476.28c0,1.968-1.366,3.448-3.171,3.448
+				c-0.879,0-1.501-0.345-1.927-0.852v3.388h-1.758v-9.257h1.724v0.724c0.426-0.534,1.055-0.899,1.954-0.899
+				C303.415,472.831,304.781,474.312,304.781,476.28z M299.595,476.28c0,1.034,0.683,1.805,1.684,1.805
+				c1.041,0,1.69-0.805,1.69-1.805s-0.649-1.805-1.69-1.805C300.278,474.474,299.595,475.245,299.595,476.28z"/>
+			<path id="XMLID_35_" style="fill:#1D262D;" d="M307.616,470.863c0,0.636-0.494,1.122-1.129,1.122s-1.122-0.487-1.122-1.122
+				c0-0.636,0.487-1.136,1.122-1.136S307.616,470.228,307.616,470.863z M307.379,479.559h-1.765v-6.552h1.765V479.559z"/>
+			<path id="XMLID_25_" style="fill:#1D262D;" d="M310.324,475.34l2.468-2.333h2.164l-3.178,3.083l3.198,3.469h-2.171l-2.482-2.651
+				v2.651h-1.765v-9.737h1.765V475.34z"/>
+		</g>
+		<g>
+			<path style="fill:#1D262D;" d="M190.082,479.5v-0.964c-0.482,0.656-1.271,1.124-2.181,1.124c-1.686,0-2.877-1.285-2.877-3.385
+				c0-2.061,1.178-3.399,2.877-3.399c0.87,0,1.659,0.428,2.181,1.138v-3.439h1.004v8.926H190.082z M190.082,477.747v-2.931
+				c-0.361-0.562-1.137-1.044-1.94-1.044c-1.298,0-2.074,1.071-2.074,2.503c0,1.432,0.776,2.489,2.074,2.489
+				C188.944,478.764,189.72,478.309,190.082,477.747z"/>
+			<path style="fill:#1D262D;" d="M192.383,476.261c0-1.874,1.338-3.386,3.185-3.386c1.954,0,3.105,1.526,3.105,3.466v0.255h-5.232
+				c0.08,1.218,0.937,2.235,2.329,2.235c0.736,0,1.485-0.295,1.994-0.816l0.482,0.656c-0.642,0.642-1.512,0.99-2.569,0.99
+				C193.761,479.66,192.383,478.282,192.383,476.261z M195.555,473.706c-1.379,0-2.061,1.164-2.115,2.154h4.242
+				C197.669,474.896,197.027,473.706,195.555,473.706z"/>
+			<path style="fill:#1D262D;" d="M199.395,478.643l0.522-0.722c0.428,0.495,1.245,0.923,2.128,0.923
+				c0.99,0,1.526-0.469,1.526-1.111c0-1.565-4.001-0.602-4.001-2.998c0-1.003,0.87-1.86,2.408-1.86c1.097,0,1.874,0.415,2.396,0.937
+				l-0.469,0.696c-0.388-0.469-1.097-0.816-1.927-0.816c-0.883,0-1.432,0.442-1.432,1.017c0,1.418,4.001,0.482,4.001,2.997
+				c0,1.084-0.87,1.954-2.542,1.954C200.947,479.66,200.051,479.339,199.395,478.643z"/>
+			<path style="fill:#1D262D;" d="M205.671,471.444c0-0.375,0.308-0.682,0.669-0.682c0.375,0,0.682,0.308,0.682,0.682
+				s-0.308,0.669-0.682,0.669C205.979,472.113,205.671,471.819,205.671,471.444z M205.845,479.5v-6.463h1.004v6.463H205.845z"/>
+			<path style="fill:#1D262D;" d="M208.508,481.159l0.508-0.749c0.535,0.642,1.178,0.883,2.101,0.883
+				c1.071,0,2.074-0.522,2.074-1.94v-0.924c-0.468,0.656-1.258,1.151-2.168,1.151c-1.686,0-2.877-1.258-2.877-3.346
+				c0-2.074,1.178-3.359,2.877-3.359c0.87,0,1.646,0.428,2.168,1.138v-0.977h1.003v6.276c0,2.141-1.499,2.81-3.078,2.81
+				C210.02,482.122,209.27,481.908,208.508,481.159z M213.191,477.64v-2.824c-0.348-0.562-1.124-1.044-1.927-1.044
+				c-1.298,0-2.074,1.031-2.074,2.462c0,1.419,0.776,2.462,2.074,2.462C212.067,478.697,212.843,478.202,213.191,477.64z"/>
+			<path style="fill:#1D262D;" d="M220.23,479.5v-4.229c0-1.137-0.575-1.499-1.445-1.499c-0.79,0-1.539,0.482-1.913,1.004v4.724
+				h-1.004v-6.463h1.004v0.937c0.455-0.535,1.338-1.097,2.301-1.097c1.352,0,2.061,0.682,2.061,2.087v4.536H220.23z"/>
+			<path style="fill:#1D262D;" d="M222.531,476.261c0-1.874,1.338-3.386,3.185-3.386c1.954,0,3.105,1.526,3.105,3.466v0.255h-5.232
+				c0.08,1.218,0.937,2.235,2.328,2.235c0.736,0,1.485-0.295,1.994-0.816l0.482,0.656c-0.642,0.642-1.512,0.99-2.569,0.99
+				C223.91,479.66,222.531,478.282,222.531,476.261z M225.703,473.706c-1.378,0-2.061,1.164-2.114,2.154h4.242
+				C227.817,474.896,227.175,473.706,225.703,473.706z"/>
+			<path style="fill:#1D262D;" d="M234.789,479.5v-0.964c-0.482,0.656-1.271,1.124-2.181,1.124c-1.686,0-2.877-1.285-2.877-3.385
+				c0-2.061,1.177-3.399,2.877-3.399c0.87,0,1.66,0.428,2.181,1.138v-3.439h1.004v8.926H234.789z M234.789,477.747v-2.931
+				c-0.362-0.562-1.137-1.044-1.94-1.044c-1.298,0-2.074,1.071-2.074,2.503c0,1.432,0.776,2.489,2.074,2.489
+				C233.652,478.764,234.428,478.309,234.789,477.747z"/>
+			<path style="fill:#1D262D;" d="M240.583,479.5v-8.926h1.003v3.439c0.522-0.709,1.298-1.138,2.182-1.138
+				c1.686,0,2.877,1.338,2.877,3.399c0,2.101-1.191,3.385-2.877,3.385c-0.91,0-1.699-0.468-2.182-1.124v0.964H240.583z
+				 M243.513,478.764c1.312,0,2.088-1.057,2.088-2.489c0-1.432-0.776-2.503-2.088-2.503c-0.789,0-1.579,0.482-1.927,1.044v2.931
+				C241.935,478.309,242.724,478.764,243.513,478.764z"/>
+			<path style="fill:#1D262D;" d="M247.742,481.119c0.147,0.067,0.388,0.107,0.549,0.107c0.441,0,0.736-0.147,0.964-0.682
+				l0.428-0.977l-2.703-6.53h1.084l2.154,5.299l2.141-5.299h1.097l-3.238,7.775c-0.388,0.937-1.044,1.298-1.9,1.311
+				c-0.214,0-0.549-0.04-0.736-0.094L247.742,481.119z"/>
+		</g>
+	</g>
+</g>
+</svg>

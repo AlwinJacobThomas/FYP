@@ -1,0 +1,82 @@
+{% extends 'coreapp/patient/base.html' %}
+{% load static %}
+
+{% block title %}Doctors{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'coreapp/css/doctor.css' %}">
+{% endblock %}
+
+{% block tab %}{% endblock %}
+{% block search %}
+<input type="text" id="searchInput" class="btn-search" placeholder="Search Doctors">
+
+
+</button>
+{% endblock %}
+{% block content %}
+<div class="doctor-card-wrapper">
+
+    {% if not doctors %}
+    <h1>No Doctors Available</h1>
+    {% else %}
+    {% for doctor in doctors %}
+
+    <a class="doctor-card" href="{% url 'coreapp:doc_profile' doctor.id %}">
+        {% if doctor.pic %}
+        <img src="{{ doctor.pic.url }}">
+        {% else %}
+        <img src="{% static 'hospital/img/avatar.jpg' %}">
+        {% endif %}
+        <div class="detail-wrap">
+            <div class="name">{{doctor.name | truncatechars:"36"}}</div>
+            <div class="title">{{doctor.qualifications}}</div>
+            <div class="dep">{{doctor.specialization}}</div>
+            <div class="hospital">{{doctor.hospital.hospital_name | truncatechars:"36"}}</div>
+            <div class="rating">
+                {{doctor.average_rating|floatformat:3}}
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                        d="M7.57662 0.997491C7.3197 0.554724 6.68029 0.554722 6.42337 0.997491L4.614 4.1157C4.48709 4.33442 4.26772 4.48368 4.01768 4.52145L0.626803 5.0336C0.0572815 5.11962 -0.142492 5.83869 0.301045 6.20615L2.82711 8.29897C3.06093 8.49269 3.17088 8.79827 3.11408 9.09656L2.4533 12.5667C2.34884 13.1152 2.9247 13.5414 3.4188 13.2813L6.61174 11.6C6.85476 11.4721 7.14523 11.4721 7.38825 11.6L10.5812 13.2813C11.0753 13.5414 11.6511 13.1152 11.5467 12.5667L10.8859 9.09656C10.8291 8.79827 10.9391 8.49269 11.1729 8.29897L13.6989 6.20615C14.1425 5.83869 13.9427 5.11962 13.3732 5.0336L9.98231 4.52145C9.73227 4.48368 9.5129 4.33442 9.38599 4.1157L7.57662 0.997491Z"
+                        fill="#FFC527" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                        d="M7.57662 0.997491C7.3197 0.554724 6.68029 0.554722 6.42337 0.997491L4.614 4.1157C4.48709 4.33442 4.26772 4.48368 4.01768 4.52145L0.626803 5.0336C0.0572815 5.11962 -0.142492 5.83869 0.301045 6.20615L2.82711 8.29897C3.06093 8.49269 3.17088 8.79827 3.11408 9.09656L2.4533 12.5667C2.34884 13.1152 2.9247 13.5414 3.4188 13.2813L6.61174 11.6C6.85476 11.4721 7.14523 11.4721 7.38825 11.6L10.5812 13.2813C11.0753 13.5414 11.6511 13.1152 11.5467 12.5667L10.8859 9.09656C10.8291 8.79827 10.9391 8.49269 11.1729 8.29897L13.6989 6.20615C14.1425 5.83869 13.9427 5.11962 13.3732 5.0336L9.98231 4.52145C9.73227 4.48368 9.5129 4.33442 9.38599 4.1157L7.57662 0.997491Z"
+                        fill="#FFC527" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                        d="M7.57662 0.997491C7.3197 0.554724 6.68029 0.554722 6.42337 0.997491L4.614 4.1157C4.48709 4.33442 4.26772 4.48368 4.01768 4.52145L0.626803 5.0336C0.0572815 5.11962 -0.142492 5.83869 0.301045 6.20615L2.82711 8.29897C3.06093 8.49269 3.17088 8.79827 3.11408 9.09656L2.4533 12.5667C2.34884 13.1152 2.9247 13.5414 3.4188 13.2813L6.61174 11.6C6.85476 11.4721 7.14523 11.4721 7.38825 11.6L10.5812 13.2813C11.0753 13.5414 11.6511 13.1152 11.5467 12.5667L10.8859 9.09656C10.8291 8.79827 10.9391 8.49269 11.1729 8.29897L13.6989 6.20615C14.1425 5.83869 13.9427 5.11962 13.3732 5.0336L9.98231 4.52145C9.73227 4.48368 9.5129 4.33442 9.38599 4.1157L7.57662 0.997491Z"
+                        fill="#FFC527" />
+                </svg> -->
+            </div>
+            
+        </div>
+        
+    </a>
+    
+    {% endfor %}
+    
+    {% endif %}
+</div>
+<script>
+    const searchInput = document.getElementById('searchInput');
+    const doctorCards = document.getElementsByClassName('doctor-card');
+
+    searchInput.addEventListener('input', function (event) {
+        const searchTerm = event.target.value.toLowerCase();
+
+        for (let i = 0; i < doctorCards.length; i++) {
+            const doctorName = doctorCards[i].getElementsByClassName('name')[0].innerText.toLowerCase();
+            const doctorSpecialization = doctorCards[i].getElementsByClassName('dep')[0].innerText.toLowerCase();
+
+            if (doctorName.includes(searchTerm) || doctorSpecialization.includes(searchTerm)) {
+                doctorCards[i].style.display = 'flex';
+            } else {
+                doctorCards[i].style.display = 'none';
+            }
+        }
+    });
+</script>
+
+{% endblock %}

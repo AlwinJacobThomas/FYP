@@ -1,0 +1,130 @@
+.content {
+    padding: 0;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "tab-controller-wrap"
+        "tab-wrap"
+    ;
+}
+
+.tab-controller-wrap {
+    grid-area: tab-controller-wrap;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 30px;
+}
+
+.tab-controllers label {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6E6D7A;
+    cursor: pointer;
+}
+
+.tab-controllers label.active {
+    background-color: black;
+    color: #fff;
+}
+
+.tab-wrap {
+    grid-area: tab-wrap;
+    overflow-x: hidden;
+    display: flex;
+}
+.tab-panel {
+    min-width: calc(100vw - 300px);
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.appointment-card {
+    padding: 30px 24px;
+    width: 360px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.appointment-card .token {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.appointment-card .token span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.appointment-card .name {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 100%;
+}
+
+.appointment-card .title,
+.appointment-card .hospital {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6E6D7A;
+}
+
+.appointment-card .hos-details {
+    width: 100%;
+    text-align: right;
+}
+
+.appointment-card .dep {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}   
+
+.appointment-card .datetime-wrap {
+    text-align: left;
+}
+
+.appointment-card .datetime {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+
+.appointment-card .datetime span {
+    font-weight: 600;
+}
+
+.appointment-card .btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.appointment-card .btn {
+    font-size: 14px;
+    padding: 7px 14px;
+    max-height: 36px;
+}
+
+.appointment-card .btn-danger svg {
+    width: 16px;
+    height: 16px;
+}
+
+.appointment-card .btn-danger svg path {
+    fill: #fff;
+}

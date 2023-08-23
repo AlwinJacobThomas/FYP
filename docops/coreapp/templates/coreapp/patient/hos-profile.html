@@ -1,0 +1,226 @@
+{% extends 'coreapp/patient/base.html' %}
+{% load static %}
+
+{% block title %}Hospital{% endblock %}
+{% block tab %}Hospital{% endblock %}
+{% block content %}
+
+
+
+<div class="container">
+    <div class="main">
+        <div style="grid-area: heading;font-size: 28px; font-weight: 600;">Hospital
+            Details</div>
+
+        <div class="height36"></div>
+        <div class="height20"></div>
+
+        <div class="">
+            <h2 class="title" style="grid-area: heading;font-size: 22px; font-family: poppins;font-weight: 600;">
+                {{hospital.hospital_name}}
+            </h2>
+            <div class="star" style="display: flex;">
+                 
+                {% for i in star%}
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" fill="gold"
+                    class="feather feather-star">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg>
+                {% endfor %}
+                {% if half %}
+          
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 12 24" fill="gold"
+                    class="feather feather-star">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg>
+                {%  endif %}
+                <div class="user-detail">{{avg|floatformat:3}}</div>
+            </div>
+            <div class="height20"></div>
+            <div class="sub-heading">
+                <img src="{{hospital.pic.url}}" alt="" height="100" width="100"
+                    style="object-fit: cover; border-radius: 50%;">
+            </div>
+            <div class="height20"></div>
+            <div class="sub-heading">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.24807 10C7.24807 7.37665 9.37472 5.25 11.9981 5.25C14.6214 5.25 16.7481 7.37665 16.7481 10C16.7481 12.6234 14.6214 14.75 11.9981 14.75C9.37472 14.75 7.24807 12.6234 7.24807 10ZM11.9981 6.75C10.2031 6.75 8.74807 8.20507 8.74807 10C8.74807 11.7949 10.2031 13.25 11.9981 13.25C13.793 13.25 15.2481 11.7949 15.2481 10C15.2481 8.20507 13.793 6.75 11.9981 6.75Z"
+                        fill="black" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.52244 8.85685C3.87676 4.55824 7.46891 1.25 11.7821 1.25H12.214C16.5272 1.25 20.1194 4.55824 20.4737 8.85685C20.664 11.166 19.9508 13.4589 18.4841 15.2526L13.691 21.1144C12.816 22.1845 11.1801 22.1845 10.3051 21.1144L5.51204 15.2526C4.04538 13.4589 3.3321 11.166 3.52244 8.85685ZM11.7821 2.75C8.24957 2.75 5.30756 5.45948 5.01737 8.98008C4.85895 10.9019 5.4526 12.8102 6.67326 14.3031L11.4663 20.1649C11.7411 20.501 12.255 20.501 12.5298 20.1649L17.3229 14.3031C18.5436 12.8102 19.1372 10.9019 18.9788 8.98008C18.6886 5.45948 15.7466 2.75 12.214 2.75H11.7821Z"
+                        fill="black" />
+                </svg>
+                <div class="sub-heading">Address</div>
+            </div>
+            <div class="details">{{hospital.address}}</div>
+            <div class="height20"></div>
+            <div class="sub-heading">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.84194 9.85641C7.62925 13.7483 10.8097 16.8425 14.7635 18.5191L14.776 18.5244L15.5398 18.8648C16.5124 19.2982 17.6557 18.9904 18.2793 18.1273L19.5536 16.3636C19.6315 16.2558 19.6114 16.106 19.508 16.0226L17.2832 14.2278C17.1726 14.1385 17.01 14.1593 16.9254 14.2735L16.0595 15.4419C15.8492 15.7256 15.4695 15.8242 15.1477 15.6786C12.1913 14.3407 9.81562 11.965 8.47769 9.00857C8.33208 8.68681 8.43067 8.30705 8.71442 8.09677L9.8828 7.23091C9.99697 7.14631 10.0177 6.98368 9.92853 6.87308L8.13348 4.64804C8.05006 4.54462 7.90031 4.52454 7.79258 4.60231L6.01928 5.88247C5.1505 6.50966 4.84454 7.6625 5.288 8.63795L5.84134 9.85511C5.84154 9.85555 5.84174 9.85598 5.84194 9.85641ZM14.1716 19.8974C9.87557 18.0738 6.42021 14.7108 4.47816 10.481L4.47699 10.4785L3.92249 9.25874C3.18339 7.63299 3.69332 5.71158 5.1413 4.66627L6.91459 3.38611C7.66871 2.8417 8.71694 2.98231 9.30094 3.7062L11.096 5.93125C11.7205 6.70542 11.5751 7.84381 10.7759 8.43605L10.1064 8.93221C11.2373 11.1266 13.0297 12.919 15.2241 14.0499L15.7203 13.3804C16.3125 12.5812 17.4509 12.4358 18.2251 13.0603L20.4498 14.8551C21.1739 15.4393 21.3143 16.4879 20.7695 17.242L19.4951 19.0058C18.4558 20.4443 16.5504 20.9572 14.9293 20.235L14.1716 19.8974Z"
+                        fill="black" />
+                </svg>
+                <div class="sub-heading">Contact</div>
+            </div>
+            <div class="details">{{hospital.phone}}</div>
+        </div>
+    </div>
+
+
+    <div class="review-bg">
+        <p style="font-size: 22px;" class="title">Reviews</p>
+        {% if reviews %}
+        {% for review in reviews %}
+
+        <div class="card p-3">
+            <div class="user">
+                {% if patient.pic %}
+                <img src="{{review.appointment.patient.pic.url}}"  class="user-img" >
+                {% else %}
+                <img src="{% static 'hospital/img/avatar.jpg' %}" class="user-img" alt="dp" style="height: 30px;">
+                {% endif %}
+                <span>
+                    <small class="user-detail">{{review.appointment.patient.first_name}}</small>
+                    <small class="review">{{review.hospital_review}}</small>
+                </span>
+                <small class="user-detail">{{review.hospital_rating}}</small>
+            </div>
+            <small class="review-time">{{review.created_at}}</small>
+
+
+        </div>
+
+        {% endfor %}
+        {% else %}
+
+        <div class="review">No Reviews</div>
+        {% endif %}
+    </div>
+</div>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+
+    }
+
+    .main {
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .content {
+        width: 100%;
+        background: #ffffff;
+    }
+
+    .heading {
+        font-family: poppins;
+
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .sub-heading {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: poppins;
+        color: #000000;
+
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .title {
+        font-family: poppins;
+        color: #000000;
+
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .dp {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .height36 {
+        height: 36px;
+    }
+
+    .height20 {
+        height: 20px;
+    }
+
+
+
+    /* review */
+    .review-bg {
+        border: 1px solid #ececec;
+        border-radius: 5px;
+        width: 50%;
+        padding: 30px;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        overflow-y: scroll;
+    }
+
+    .card {
+        border-bottom: 1px solid #ececec;
+        border-radius: 5px;
+        padding: 20px 0;
+    }
+
+    .user-detail {
+        padding-left: 10px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .review {
+        color: #000000;
+    }
+
+    .user-img {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+
+    .review-time {
+        font-size: 12px;
+        color: #706F6F;
+    }
+
+    .user {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background: #ff0000;
+        color: white;
+    }
+</style>
+{% endblock %}

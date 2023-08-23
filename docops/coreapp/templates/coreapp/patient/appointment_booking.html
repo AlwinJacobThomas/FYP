@@ -1,0 +1,73 @@
+{% extends 'coreapp/patient/base.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'coreapp/css/dialog.css' %}">
+{% endblock %}
+{% block dialog %}
+<!-- DIALOG BOX -->
+<div id="modal_wrapper">
+    <form id="regForm" method="post" action="{% url 'coreapp:appointment_booking' doctor_id %}">
+        {% csrf_token %}
+        <a class="btn-close" id="btn-close" href="{% url 'coreapp:doc_profile' doctor_id %}">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Close button SVG code -->
+            </svg>
+        </a>
+        <h1>Book your<br />Appointment</h1>
+        <div class="gap-36"></div>
+        <div class="tab">
+            <label>Date</label>
+            <div class="gap-16"></div>
+            <p>{{form.appointment_date}}</p>
+            <label>Time</label>
+            <div class="gap-16"></div>
+            <p>{{form.appointment_time}}</p>
+        </div>
+        
+        <!-- Circles which indicate the steps of the form: -->
+        <div style="text-align:center;margin-top:10px;">
+            <span class="step"></span>
+           
+        </div>
+        <div class="gap-12"></div>
+        <div style="overflow:auto;">
+            <div style="display: flex;">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)" class="btn-outline">Previous</button>
+                <button type="button" id="nextBtn" onclick="validateForm()" class="btn-primary">Next</button>
+            </div>
+        </div>
+    </form>
+    <div class="response-card" id="response-card">
+        <!-- Response card HTML code -->
+    </div>
+</div>
+<script src="{% static 'coreapp/scripts/dialog.js' %}"></script>
+<script>
+function validateForm() {
+    var appointmentDateInput = document.getElementById('id_appointment_date');
+    var appointmentTimeInput = document.getElementById('id_appointment_time');
+    
+    var selectedDate = new Date(appointmentDateInput.value);
+    var currentDate = new Date();
+    
+    var selectedTime = new Date(appointmentTimeInput.value);
+    var startTime = new Date().setHours(9, 0, 0);  // 9am
+    var endTime = new Date().setHours(17, 0, 0);  // 5pm
+    
+    if (selectedDate < currentDate) {
+        alert("Appointment date cannot be in the past.");
+        appointmentDateInput.value = '';  // Clear the input value
+        return;
+    }
+    
+    if (selectedTime < startTime || selectedTime > endTime) {
+        alert("Appointment time should be between 9am and 5pm.");
+        appointmentTimeInput.value = '';  // Clear the input value
+        return;
+    }
+    
+    document.getElementById('regForm').submit();
+}
+
+</script>
+{% endblock %}

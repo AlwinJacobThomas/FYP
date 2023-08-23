@@ -1,0 +1,91 @@
+.content {
+    padding: 15px;
+}
+
+.doctor-card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 16px;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.doctor-card img {
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.doctor-card .detail-wrap {
+    width: 56%;
+}
+
+.doctor-card .detail-wrap .name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.doctor-card .detail-wrap .title,
+.doctor-card .detail-wrap .hospital {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6E6D7A;
+}
+
+.doctor-card .detail-wrap .dep {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 12px;
+}
+
+.doctor-card .detail-wrap .rating {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.doctor-card .detail-wrap .rating svg {
+    margin: 4px;
+    margin-left: 0;
+}
+
+.content .btn-add-doctor {
+    width: 360px;
+    height: 200px;
+    background-color: #007bff29;
+    border-radius: 16px;
+    border: 1px solid #007bffbe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #007BFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.doctor-card-wrapper .btn-add-doctor svg {
+    width: 50px;
+    height: 50px;
+}
+
+.doctor-card-wrapper .btn-add-doctor svg path {
+    fill: #007bffbe;
+}

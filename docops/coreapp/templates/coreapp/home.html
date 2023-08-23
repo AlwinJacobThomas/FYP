@@ -1,0 +1,20 @@
+{% extends 'coreapp/layout.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+{% block head %}<link rel="stylesheet" href="{% static 'coreapp/css/style.css' %}">{% endblock %}
+{% block content %}
+<h1>Home</h1> 
+{% if user.is_authenticated %}
+
+{{user.email}}
+<!--     
+    <img src="{{profile.pic.url}}" alt="dp" class="rounded-full h-12 w-12"> -->
+    <a href="{% url 'user:logout' %}">Logout</a>
+{% else %}
+    <a href="{% url 'user:login' %}">Login</a>
+
+{% endif %}
+
+    <a href="{% url 'coreapp:hospital' %}" >hospital</a>
+{% endblock %}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pending</h1>
+    {% if pending_appointments|length == 0 %}
+    No appointments
+    {% endif %}
+    {% for i in pending_appointments %}
+    {{i.id}} | {{i.patient}} | {{i.doctor.name}} | {{i.hospital}}
+    <form action="{% url 'coreapp:appointment_confirm' i.id %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Mark Completed</button>
+    </form>
+    <form action="{% url 'coreapp:appointment_confirm' i.id %}" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="_method" value="DELETE">
+        <button type="submit">Cancel</button>
+    </form>
+    {% endfor %}
+
+    <h1>Past</h1>
+    {% if completed_appointments|length == 0 %}
+    No appointments
+    {% endif %}
+    {% for i in completed_appointments %}
+    {{i.id}} | {{i.patient}} | {{i.doctor.name}} | {{i.hospital}}
+    {% endfor %}
+
+    <h1>Cancelled</h1>
+    {% if cancelled_appointments|length == 0 %}
+    No appointments
+    {% endif %}
+    {% for i in cancelled_appointments %}
+    {{i.id}} | {{i.patient}} | {{i.doctor.name}} | {{i.hospital}}
+    {% endfor %}
+</body>
+</html>

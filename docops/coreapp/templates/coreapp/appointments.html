@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    Cancelled
+    {% for i in cancelled %}
+        {{i.id}}
+    {% endfor %}
+    Pending
+    {% for i in pending %}
+        {{i.doctor.name}}
+    {% endfor %}
+
+    Completed
+    {% for i in completed.reviewed_appointments %}
+        {{i.id}}
+    {% endfor %}
+    {% for i in completed.not_reviewed_appointments %}
+        {{i.id}}
+        <button onclick="location.href='{% url 'coreapp:treatment_review' i.id %}'">Review</button>
+    {% endfor %}
+    {% block dialog %}{% endblock %}
+</body>
+</html>

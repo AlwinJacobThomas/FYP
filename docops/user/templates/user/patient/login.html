@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocOps | {% block title %}Login{% endblock %}</title>
+
+    <link rel="shortcut icon" href="{% static 'hospital/img/logo.png' %}" type="image/x-icon">
+    {% block head %}{% endblock %}
+</head>
+{% block content %}
+<body>
+    <main>
+        <div class="content">
+            <!-- style="background-image: url({% static 'hospital/img/doc.jpg' %}); background-size: cover;" -->
+            <img src="{% static 'hospital/img/logo-blue.svg' %}" alt="" class="logo">
+        
+            <div class="heading">Let us help you easily find the best treatment for you.</div>
+            <div class="sub-heading">Well,let’s get started using the DocOps.</div>
+            <img src="{% static 'hospital/img/logo-blue.svg' %}" alt="" class="watermark">
+
+        </div>
+        <div class="login-form">
+            <div class="gap-36"></div>
+            <div class="heading">Sign In</div>
+            <div class="sub-heading">Login to your account to continue</div>
+            <form action="#" method="post">
+                {% csrf_token %}
+                {% if message %}
+                <span style="color: red">
+                    {{message}}
+                </span>
+                {% endif %}
+                <div class="gap-36"></div>
+                <div class="gap-36"></div>
+                <label for="email">Email</label>
+                {{form.username}}
+                <label for="password">Password</label>
+                {{form.password}}
+                <input type="submit" class="btn btn-primary" value="Sign In">
+            </form>
+            <p class="sub-heading">Don’t have an account? <a style="color:#007BFF" href="{% url 'user:signup' %}">Sign Up</a> </p>
+        </div>
+    </main>
+</body>
+{% endblock %}
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .gap-12 {
+        padding: 6px;
+    }
+
+    .gap-14 {
+        padding: 7px;
+    }
+
+    .gap-16 {
+        padding: 8px;
+    }
+
+    .gap-36 {
+        padding: 18px;
+    }
+
+    main {
+        max-width: 1024px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        padding: 20px;
+
+    }
+
+    .content {
+        background: #F3F5F9;
+        padding: 50px 50px;
+        width: 50%;
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .logo {
+        height: 40px;
+
+    }
+
+    .heading {
+        font-family: poppins;
+
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .sub-heading {
+        font-family: poppins;
+        color: #6E6D7A;
+
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .content>.heading {
+        position: relative;
+        top: 200px;
+    }
+
+    .content>.sub-heading {
+        position: relative;
+        top: 200px;
+        padding-top: 20px;
+    }
+
+    .watermark {
+        opacity: 0.058;
+        height: 100px;
+        position: relative;
+        top: 300px;
+        left: 50px;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+    }
+
+    .login-form {
+        padding: 50px 50px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    input {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #DFDFDF;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    label {
+        color: #6E6D7A;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .btn {
+        font-weight: 500;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 16px;
+    }
+
+    .btn-primary {
+        background-color: #007BFF;
+        color: #fff;
+    }
+</style>

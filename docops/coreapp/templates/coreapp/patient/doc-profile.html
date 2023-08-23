@@ -1,0 +1,282 @@
+{% extends 'coreapp/patient/base.html' %}
+{% load static %}
+
+{% block title %}Doctor{% endblock %}
+{% block tab %}Doctor{% endblock %}
+{% block content %}
+
+<div class="title">Doctor Profile</div>
+<div class="height36"></div>
+<div class="container">
+    <div class="main">
+
+        <div class="profile-image">
+            {% if doctor.pic %}
+            <img src="{{ doctor.pic.url }}" class="dp" alt="dp">
+            {% else %}
+            <img src="{% static 'hospital/img/avatar.jpg' %}" class="dp" alt="dp">
+            {% endif %}
+        </div>
+        <div class="height36"></div>
+        <div class="profile-details">
+            <p style="font-size: 22px;" class="title">{{ doctor.name }}</p>
+            <div class="star" style="display: flex;">
+                 
+                {% for i in star%}
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" fill="gold"
+                    class="feather feather-star">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg>
+                {% endfor %}
+                {% if half %}
+          
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 12 24" fill="gold"
+                    class="feather feather-star">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg>
+                {%  endif %}
+                <div class="user-detail">{{average_rating}}</div>
+            </div>
+            <div class="height20"></div>
+
+            <div class="sub-heading">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 6.25C10.2051 6.25 8.75 7.70507 8.75 9.5C8.75 11.2949 10.2051 12.75 12 12.75C13.7949 12.75 15.25 11.2949 15.25 9.5C15.25 7.70507 13.7949 6.25 12 6.25ZM10.25 9.5C10.25 8.5335 11.0335 7.75 12 7.75C12.9665 7.75 13.75 8.5335 13.75 9.5C13.75 10.4665 12.9665 11.25 12 11.25C11.0335 11.25 10.25 10.4665 10.25 9.5Z"
+                        fill="black" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 2.25C7.99594 2.25 4.75 5.49594 4.75 9.5C4.75 10.9681 5.18639 12.3343 5.93652 13.476L3.35048 17.9551C3.20342 18.2099 3.21882 18.527 3.38988 18.7663C3.56093 19.0056 3.85606 19.1228 4.14467 19.066L6.75854 18.5522L7.62047 21.0728C7.71564 21.3511 7.96471 21.5481 8.25745 21.5766C8.5502 21.6051 8.83258 21.4599 8.97965 21.2051L11.5594 16.7368C11.7052 16.7456 11.8521 16.75 12 16.75C12.1479 16.75 12.2948 16.7456 12.4406 16.7368L15.0204 21.2051C15.1676 21.4601 15.4504 21.6054 15.7434 21.5765C16.0364 21.5477 16.2854 21.3501 16.3801 21.0713L17.2376 18.5455L19.8537 19.0657C20.1425 19.1232 20.4382 19.0063 20.6097 18.767C20.7812 18.5276 20.7967 18.2101 20.6495 17.9551L18.0635 13.476C18.8136 12.3343 19.25 10.9681 19.25 9.5C19.25 5.49594 16.0041 2.25 12 2.25ZM6.25 9.5C6.25 6.32436 8.82437 3.75 12 3.75C15.1756 3.75 17.75 6.32436 17.75 9.5C17.75 12.6756 15.1756 15.25 12 15.25C8.82437 15.25 6.25 12.6756 6.25 9.5ZM9.98376 16.466C8.83078 16.1328 7.79597 15.5212 6.95691 14.7086L5.4747 17.2759L7.11167 16.9541C7.47972 16.8817 7.84463 17.0924 7.96599 17.4473L8.50579 19.0259L9.98376 16.466ZM15.4918 19.0217L14.0163 16.466C15.1692 16.1328 16.204 15.5212 17.0431 14.7086L18.5229 17.2717L16.8851 16.9461C16.516 16.8727 16.1497 17.0842 16.0287 17.4406L15.4918 19.0217Z"
+                        fill="black" />
+                </svg>
+                <label for="">Specialization</label>
+            </div>
+            <p class="specialization" style="color: #706F6F;">{{ doctor.specialization }}</p>
+            <div class="height20"></div>
+
+            <div class="sub-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-clock">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+
+                <label for="">Experience</label>
+            </div>
+            <p class="experience" style="color: #706F6F;"> {{ doctor.experience }} years</p>
+            <div class="height20"></div>
+
+            <div class="sub-heading">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.6116 3.30203C11.8551 3.23273 12.1119 3.23267 12.3553 3.30176C12.8729 3.44863 13.3952 3.58485 13.9192 3.72153C16.38 4.36334 18.8793 5.01516 21.1028 6.82618L22.1267 7.66016C22.542 7.99845 22.7498 8.49918 22.75 9V16C22.75 16.4142 22.4142 16.75 22 16.75C21.5858 16.75 21.25 16.4142 21.25 16V11.0567L21.0871 11.1896C20.3166 11.8183 19.5128 12.3066 18.6888 12.7029C18.7282 12.794 18.75 12.8944 18.75 13V17.2939C18.75 18.4272 18.0548 19.4444 16.9989 19.8561L12.9989 21.4156C12.3565 21.666 11.6435 21.666 11.0011 21.4156L7.0011 19.8561C5.94522 19.4444 5.25 18.4272 5.25 17.2939V13C5.25 12.8918 5.27292 12.7889 5.31418 12.696C4.48383 12.2973 3.67373 11.8063 2.89724 11.1738L1.8733 10.3398C1.04264 9.66327 1.04221 8.33693 1.87215 7.65967L2.91292 6.81037C5.12037 5.00904 7.60193 4.36111 10.0445 3.72335C10.5697 3.58623 11.0931 3.44957 11.6116 3.30203ZM21.25 9.0006C21.25 8.91051 21.2136 8.85102 21.1794 8.8232L20.1555 7.98922C18 6.5 16.0794 5.84319 13.6399 5.20216C13.1035 5.06121 12.5519 4.91626 11.984 4.75559C11.4135 4.91742 10.8599 5.06306 10.3217 5.20465C7.9018 5.84128 5.79323 6.39601 3.86128 7.97253L2.8205 8.82184C2.78631 8.84973 2.74996 8.90931 2.75 8.9994C2.75004 9.08949 2.78643 9.14898 2.82058 9.1768L3.84453 10.0108C5.79285 11.5977 7.92065 12.1568 10.3601 12.7978C10.8965 12.9388 11.4481 13.0837 12.016 13.2444C12.5865 13.0826 13.14 12.937 13.6782 12.7954C16.0981 12.1587 18.2068 11.604 20.1387 10.0275L21.1795 9.17816C21.2137 9.15029 21.25 9.09054 21.25 9.0006ZM13.9555 14.2766C15.0553 13.9895 16.163 13.7003 17.25 13.3046V17.2939C17.25 17.8091 16.934 18.2714 16.454 18.4585L12.454 20.018C12.1621 20.1318 11.8379 20.1318 11.546 20.018L7.54596 18.4585C7.06601 18.2714 6.75 17.8091 6.75 17.2939V13.2961C7.84877 13.6963 8.96869 13.9884 10.0808 14.2785C10.6048 14.4151 11.1271 14.5514 11.6447 14.6982C11.8881 14.7673 12.145 14.7673 12.3884 14.698C12.9069 14.5504 13.4303 14.4138 13.9555 14.2766Z"
+                        fill="black" />
+                </svg>
+                <label for="">Qualification</label>
+            </div>
+            <p class="qualifications" style="color: #706F6F;">{{ doctor.qualifications }}</p>
+            <div class="height20"></div>
+
+            <div class="sub-heading">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.84194 9.85641C7.62925 13.7483 10.8097 16.8425 14.7635 18.5191L14.776 18.5244L15.5398 18.8648C16.5124 19.2982 17.6557 18.9904 18.2793 18.1273L19.5536 16.3636C19.6315 16.2558 19.6114 16.106 19.508 16.0226L17.2832 14.2278C17.1726 14.1385 17.01 14.1593 16.9254 14.2735L16.0595 15.4419C15.8492 15.7256 15.4695 15.8242 15.1477 15.6786C12.1913 14.3407 9.81562 11.965 8.47769 9.00857C8.33208 8.68681 8.43067 8.30705 8.71442 8.09677L9.8828 7.23091C9.99697 7.14631 10.0177 6.98368 9.92853 6.87308L8.13348 4.64804C8.05006 4.54462 7.90031 4.52454 7.79258 4.60231L6.01928 5.88247C5.1505 6.50966 4.84454 7.6625 5.288 8.63795L5.84134 9.85511C5.84154 9.85555 5.84174 9.85598 5.84194 9.85641ZM14.1716 19.8974C9.87557 18.0738 6.42021 14.7108 4.47816 10.481L4.47699 10.4785L3.92249 9.25874C3.18339 7.63299 3.69332 5.71158 5.1413 4.66627L6.91459 3.38611C7.66871 2.8417 8.71694 2.98231 9.30094 3.7062L11.096 5.93125C11.7205 6.70542 11.5751 7.84381 10.7759 8.43605L10.1064 8.93221C11.2373 11.1266 13.0297 12.919 15.2241 14.0499L15.7203 13.3804C16.3125 12.5812 17.4509 12.4358 18.2251 13.0603L20.4498 14.8551C21.1739 15.4393 21.3143 16.4879 20.7695 17.242L19.4951 19.0058C18.4558 20.4443 16.5504 20.9572 14.9293 20.235L14.1716 19.8974Z"
+                        fill="black" />
+                </svg>
+                <label for="">Contact</label>
+            </div>
+            <p class="contact" style="color: #706F6F;">{{ doctor.contact_number }}</p>
+            <div class="height20"></div>
+
+            <div class="sub-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-mail">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <label for="">Email</label>
+            </div>
+            <p class="email" style="color: #706F6F;">{{ doctor.email }}</p>
+            <div class="height20"></div>
+
+            <div class="sub-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-user">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                <label for="">Availability</label>
+            </div>
+            <p class="availability" style="color: #706F6F;font-size: 16px;">{% if doctor.is_available %}Available{% else
+                %}Not
+                Available{% endif %}</p>
+         
+            <div class="height20"></div>
+         
+            <div class="sub-heading">
+                    <a href="{% url 'coreapp:appointment_booking' doctor.id %}" class="btn">Book now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="review-bg">
+        
+        <p style="font-size: 22px;" class="title">Reviews</p>
+        {% if reviews %}
+        {% for review, patient in patients %}
+        
+        <div class="card p-3">
+            <div class="user">
+                {% if patient.pic %}
+                <img src="{{review.appointment.patient.pic.url}}"  class="user-img" >
+                {% else %}
+                <img src="{% static 'hospital/img/avatar.jpg' %}" class="user-img" alt="dp">
+                {% endif %}
+                <span>
+                    <small class="user-detail">{{patients.first_name}}</small> 
+                    <small class="review">{{review.doctor_review}}</small>
+                </span>
+                        
+                        <small class="user-detail">{{review.doctor_rating}}</small>
+            </div>
+            <small>{{review.created_at}}</small>
+
+
+        </div>
+        {% endfor %}
+        {% else %}
+        <div class="review">
+            No Reviews
+        </div>
+        {% endif %}
+    </div>
+</div>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+
+    }
+
+    .main {
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .content {
+        width: 100%;
+        background: #ffffff;
+    }
+
+    .heading {
+        font-family: poppins;
+
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .sub-heading {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: poppins;
+        color: #000000;
+
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .title {
+        font-family: poppins;
+        color: #000000;
+
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .dp {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .height36 {
+        height: 36px;
+    }
+
+    .height20 {
+        height: 20px;
+    }
+
+
+
+    /* review */
+    .review-bg {
+        border: 1px solid #ececec;
+        border-radius: 5px;
+        width: 50%;
+        padding: 30px;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        overflow-y: scroll;
+    }
+
+    .card {
+        border-bottom: 1px solid #ececec;
+        border-radius: 5px;
+        padding: 20px 0;
+    }
+
+    .user-detail {
+        padding-left: 10px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .review {
+        color: #000000;
+    }
+
+    .user-img {
+        border-radius: 50%;
+        background: #000;
+        height: 30px;
+        width: 30px; 
+        min-width: 30px;
+        object-fit: cover;
+    }
+    .review-time{
+        font-size: 12px;
+        color: #706F6F;
+    }
+    .user {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background: #ff0000;
+        color: white;
+    }
+</style>
+{% endblock %}

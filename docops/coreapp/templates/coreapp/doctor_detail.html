@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multi-Step Form</title>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <button onclick="location.href='{% url "coreapp:appointment_booking" doctor_id %}'">Book Appointment</button>
+    {% block dialog %}{% endblock %}
+</body>
+
+</html>
